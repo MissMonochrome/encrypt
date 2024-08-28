@@ -1,0 +1,129 @@
+html {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background: #EBE5FC;
+    font-size: 1rem;
+}
+
+input, textarea, select {
+    font-family: "Raleway", sans-serif;
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    gap: 3rem;
+    padding: 2rem 3rem;
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+header img {
+    max-height: 3rem;
+    margin-inline: auto;
+}
+
+section.content {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 6rem;
+
+}
+
+.input-area, .input-area textarea {
+    height: 45vh;
+}
+
+.input-area textarea {
+    margin-block: 6rem;
+}
+
+.input-area textarea,
+.input-area textarea::placeholder {
+    color: #5D43B2;
+    font-size: 2rem;
+}
+
+.input {
+    width: 100%; 
+    background-color: #EBE5FC; 
+    color: #1B162A; 
+    border: none;
+    height: 65vh; 
+
+} 
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    background-color: #b6a7e9; 
+    color: #1B162A;
+    font-size: 1.5rem;
+    font-weight: 300;
+    cursor: pointer; 
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+.encrypt-btn {
+    background-color: #5D43B2; 
+    color: #CDC7E1;
+
+}
+
+
+button:hover {
+    background-color: #bfb1d4; 
+    color: #ffffff; 
+}
+
+
+.message {
+    background-color: #fff;
+    width: 100%;
+    height: 65vh;
+    border: 2px solid #ccc;
+    border-radius: 32px;
+    color: #1B162A;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.message .no-result {
+    margin: auto;
+}
+
+.message-image {
+    display: block;
+    max-width: 100%;
+    margin-inline: auto;
+    object-fit: contain;
+}
+
+.message-text {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.message-text h3 {
+    font-size: 2em;
+}
+
+.message .copy-btn {
+    margin-top: auto; 
+}
+
